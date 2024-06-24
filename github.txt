@@ -1,0 +1,4 @@
+O que é repositorio?
+seriço que armazena tudo que  produzimos com seguraça---> cofre
+possui um controle a acesso--> dar e remover permissoes a covidads 
+Possui um controle de versões --> maquinaa do tempo
