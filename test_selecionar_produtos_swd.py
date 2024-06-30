@@ -30,6 +30,9 @@ class Teste_produtos():
         assert self.driver.find_element(By.CSS_SELECTOR, ".inventory_item:nth-child(1) .inventory_item_price").text == (
             "$29.99" 
         )  
-        self.driver.find_element(By.ID, "add-to-cart-sauce-labs-backpack").click()
-        assert self.driver.find_element(By.CSS_SELECTOR, "span.shopping_cart_badge").text == "1"
-        
+        self.driver.find_element(By.ID, "add-to-cart-sauce-labs-backpack").click()               # adicionar no carrinho
+        assert self.driver.find_element(By.CSS_SELECTOR, "span.shopping_cart_badge").text == "1"  # escolher a quantidade de mchila 
+        self.driver.find_element(By.CSS_SELECTOR,"a.shopping_cart_link").click()
+        self.driver.find_element(By.ID,"remove-sauce-labs-backpack").click()   # remover do carrinho
+        self.driver.find_element(By.ID,"react-burger-menu-btn").click()        # Clicar no menu ( os traçinhos)
+        self.driver.find_element(By.ID,"logout_sidebar_link").click()  # clicar em logout
