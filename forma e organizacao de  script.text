@@ -1,0 +1,18 @@
+1- Gravação (Captura & Playback/ Record & Play)
+2- Exportação e importação do código fonte (script simples)
+3- Criar script simples e manualmente --> 1 script  de teste = 1 Arquivo
+4- script com  cucumber / Baheve --> 1 teste = 2 Arquivo (.feature em Gherkin e py  que é  o script de automação)
+
+
+
+
+
+
+
+
+BDD= Behavier Driven Devolopment= Desenvolvimento Direcionado por Comportamento
+---> Foco no Comportamento esperado do software--> Dito pelo PO ( product Ownwer)
+#BDD forma de trabalho que tem foco na comunicação
+---> Criterio de Aceitação = Sintaxe Gherkin
+Dado - Qaundo - Então
+Cucumber.io (para verificar as palavras chaves)
