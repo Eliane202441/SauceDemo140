@@ -1,4 +1,4 @@
-feature: Selecionar produto
+Feature: Selecionar produto
 
 Scenario: Selecionar produto " Sauce Labs  Backpack"
 Given que  acesso o site  Sauce Demo 
